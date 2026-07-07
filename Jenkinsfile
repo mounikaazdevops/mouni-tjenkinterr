@@ -15,7 +15,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "https://github.com/kuchalakanti/krishnaterraaws.git"
+                            git branch: 'main', url: 'https://github.com/mounikaazdevops/mouni-tjenkinterr.git'
                         }
                     }
                 }
